@@ -57,6 +57,15 @@ function add_editor_buttons($buttons) {
 }
 add_filter("mce_buttons_3", "add_editor_buttons");
 
+
+//去除页面搜索结果
+function SearchFilter($query) {
+	if ($query->is_search) 
+		$query->set('post_type', 'post');
+	return $query;
+}
+add_filter('pre_get_posts','SearchFilter');
+
 /**
  * Twenty Fifteen only works in WordPress 4.1 or later.
  */
