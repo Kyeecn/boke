@@ -34,6 +34,14 @@ if ( ! isset( $content_width ) ) {
 	$content_width = 660;
 }
 
+
+//退出的时候跳转到首页
+function mk_logout_redirect_home($logouturl, $redir){
+    $redir = home_url();
+    return $logouturl . '&redirect_to=' . urlencode($redir);
+}
+add_filter('logout_url', 'mk_logout_redirect_home', 10, 2);
+
 //编辑器增强
 function add_editor_buttons($buttons) {
   $buttons[] = 'fontselect';
