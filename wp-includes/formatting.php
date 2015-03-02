@@ -2615,6 +2615,7 @@ function wp_trim_words( $text, $num_words = 55, $more = null ) {
 		$text = $text . $more;
 	} else {
 		$text = implode( $sep, $words_array );
+    $text = $text . $more;
 	}
 	/**
 	 * Filter the text content after words have been trimmed.
