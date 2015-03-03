@@ -10,7 +10,7 @@ get_header(); ?>
   <div class="container">
   <div id="main-content">
     <div class="content-headline">
-      <h1 class="entry-headline"><?php single_cat_title(); ?></h1>
+      <h1 class="entry-headline">Category: <?php single_cat_title(); ?></h1>
 <?php foreverwood_get_breadcrumb(); ?>
     </div>
 <?php if ( category_description() ) : ?><div class="archive-meta"><?php echo category_description(); ?></div><?php endif; ?>

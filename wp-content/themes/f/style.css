@@ -20,7 +20,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 h1, h2, h3, h4, h5, h6 {
   -ms-word-wrap: break-word;
   word-wrap:     break-word;
-  font-family: "PT Sans", Arial, Helvetica, sans-serif; 
+  font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
   line-height: 120%;
   margin: 30px 0 7px;                   
 }
@@ -240,7 +240,7 @@ a img.aligncenter {
 body {
   background: white;
   color: #333333;
-  font-family: "PT Sans", Arial, Helvetica, sans-serif;  
+  font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
   line-height: 150%; 
 }
 .menu-panel-wrapper,
@@ -341,7 +341,7 @@ body {
   width: 50%;           
 }
 .site-title { 
-  font-family: "PT Sans", Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
   font-size: 48px;  
   line-height: 100%;
   margin: 30px 0; 
@@ -407,7 +407,7 @@ body {
 }
 .header-image .header-image-text .header-image-headline {
   color: white;
-  font-family: "PT Sans", Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
   font-size: 35px;
   line-height: 100%;
   margin: 0 0 16px;
@@ -735,6 +735,7 @@ way to fit your requirements. */
   padding: 0 0 8px;
   position: relative;
   z-index: 50;                                  
+  margin-bottom:20px;
 }
 .home-latest-posts .entry-headline {
   margin-bottom: 22px;                                   
@@ -1070,7 +1071,7 @@ way to fit your requirements. */
 .sidebar-widget .sidebar-headline {
   background: #f0f0f0;
   color: #555555;
-  font-family: "PT Sans", Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
   font-size: 19px;
   margin: 0;
   padding: 6px 10px;
@@ -1176,7 +1177,7 @@ way to fit your requirements. */
 #footer .footer-widget .footer-headline {
   border-bottom: 1px solid #707070;
   color: white;
-  font-family: "PT Sans", Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
   font-size: 19px;
   line-height: 100%;
   margin-bottom: 3px;
@@ -1277,7 +1278,7 @@ select {
   background-color: white;
   border: 1px solid #e3e3e3;
   color: #333333;
-  font-family: "PT Sans", Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
   line-height: normal;
   padding: 5px;
   width: 50%;
